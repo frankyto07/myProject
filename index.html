@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Mi Portfolio</title>
+</head>
+<body id="inicio">
+    
+        <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+            <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#inicio">Franco Torres</a>
+            <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </nav>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#texto-centrado">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#acerca-de-mi">Acerca de Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contacto">Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+        <div class="container mifoto">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <img id="imagen" src="FotoCV.png" alt="Imagen">
+                   
+                    <h1 id="texto-centrado">Franco Torres</h1>
+                    <h5 id="texto-centrado">Desarrollador Web</h5>
+               
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid portafolio">
+
+            <h1 id="texto-centrado">PORTFOLIO</h1>
+
+            <hr class="hr">
+
+            <div class="row">
+                <div class="col-sm-4"> 
+                <a href="Proyecto Color Game/index.html"target="_blank"> <img src="colorGame.png" class="img-fluid img" alt="color game" > </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="Proyecto To Do List/index.html"target="_blank"><img src="toDoList.jpg" class="img-fluid img" alt="to do list"> </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="Proyecto Weather Channel/index.html"target="_blank"> <img src="weatherChannel.jpg" class="img-fluid img" alt="weather channel"> </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="acerca-de-mi" class="acercademi">
+        <h2>ACERCA DE MÍ</h2>
+        <hr class="hracerca">
+        <p>Me llamo Franco Torres, tengo 21 años, me apasiona la tecnologia, me gustan los deportes. estudié programación en la secundaria técnica John F. Kennedy ubicada en Lanús Este. Tengo conocimientos en HTML, CSS y JavaScript. En Octubre de 2023 hasta Noviembre del mismo año, hice un bootcamp en la empresa Accenture "SAP BTP RAP". Actualmente me encuentro haciendo el curso ATR (A Tu Ritmo) de Plataforma5  </p>
+    </div>
+
+
+
+    <div id="contacto" class="fondocontactame">
+
+        <div class="contactame">
+            <h2> CONTÁCTAME </h2>
+            <hr class="hrcont">
+        </div>
+
+        <div class="container">
+            <form action="https://formspree.io/f/mgebonda" method="POST">
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre/Empresa</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre y apellido" aria-describedby="emailHelp" placeholder="escriba su nombre">
+                   </div>
+
+                <div class="mb-3">
+                    <label for="mail1" class="form-label">Mail</label>
+                    <input type="email" class="form-control" name="mail" id="mail1" aria-describedby="emailHelp" placeholder="escriba su mail" required>
+                </div>    
+                <div class="mb-3">
+                  <label for="Numerodetelefono" class="form-label">Número de teléfono</label>
+                  <input type="text" class="form-control" name="numero de telefono" id="numerotel" placeholder="escriba su número de teléfono">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Escriba su mensaje"></textarea>
+                  </div>
+                
+                <button type="submit" class="btn btn-light">Enviar</button>
+              </form>
+    
+              
+        </div>
+
+    </div>
+
+
+    <div class="pie">
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-12 redes">
+
+            <h2> MIS REDES  </h2>
+
+            <div class="iconos">
+                <section class="botones">
+                    <a href="https://www.instagram.com/_fraven23/ " target="_blank" class="bi bi-instagram face"></a>
+                    <a href="https://www.linkedin.com/in/franco-torres-aaa608203/" target="_blank" class="bi bi-linkedin linkedin"></a>
+            </section>
+
+            </div>
+        </div>
+  
+    </div>
+
+</div>
+
+</div>
+
+
+<footer> copyright <i class="bi bi-c-circle"></i> mi portfolio</footer>
+
+
+
+
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

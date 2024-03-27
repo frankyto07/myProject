@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto: Color Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1><span id="colorDisplay"></span> </h1>
+    <h1>
+      The 
+      <span id="colorDisplay"> <!-- El codigo RGB del color ganador --></span>
+      Color Game
+    </h1>
+    <div id="stripe">
+      <span id="message"></span> <button id="reset">Nuevos Colores</button>
+      <span id="message"
+        ><!-- Aquí va el mensaje de intentalo nuevamente o correcto --></span
+      >
+      <!-- <button id="reset">Nuevos Colores</button> -->
+    </div>
+    <button id="easyButton" class="mode">Facil</button>
+    <button id="hardButton" class="mode selected" >Dificil</button>
+
+    <div class="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+<!--     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+    
+      <div id="texto"> 
+        <h2>Las reglas del juego son simples. El programa mostrará un código RGB (Rojo, Verde, Azul) y opciones posibles para que el usuario adivine cuál es la correcta. El usuario podrá jugar en dos niveles: el fácil (con 3 colores) o el difícil (con 6). En cualquier caso, el juego le permitirá hacer click en todas las opciones hasta que dé con la correcta.</h2>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

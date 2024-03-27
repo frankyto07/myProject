@@ -1,0 +1,33 @@
+body{
+    background-color: #54E0C1;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:active{
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    border: 2px black dashed;
+    text-align: center;
+}

@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.mifoto {
+    margin-top: 2%;
+    text-align: center;
+    width: 50%;
+}
+
+#imagen {
+    justify-content: center;
+    width: 30%;
+}
+
+
+#texto-centrado {
+    text-align: center;
+}
+
+.portafolio {
+    margin-top: 3%;
+    background-color: orange;
+}
+
+.hr {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.img {
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.acercademi {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hracerca {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.fondocontactame {
+    margin-top: 5%;
+    padding: 3%;
+    background-color: orange;
+}
+
+.contactame {
+    text-align: center;
+}
+
+.hrcont {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.pie {
+    
+    padding-top: 2%;
+    padding-bottom: 6%;
+    text-align: center;
+    background-color: #2A2A2A;
+}
+
+.redes {
+    color: white;
+}
+
+
+
+.botones {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+
+}
+
+.botones a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    
+    background-color: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+
+.botones a:hover {
+    transform: scale(1.5);
+}
+
+/* .face {
+    padding: 4%;
+}
+.linkedin {
+    padding: 4%;
+} 
+ */
+
+ footer {
+    background-color: #081230;
+    color: white;
+    text-align: center;
+}
